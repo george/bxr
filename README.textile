@@ -1,0 +1,29 @@
+h1. BXR
+
+[See also @README_ORIGINAL@]
+
+BXR is an open source, ruby on rails file management system. It is based off of
+Boxroom, another ruby on rails application. BXR allows you to create folders, 
+users, and groups, and assign permissions, so you can secure different folder 
+and files. You can also search for files and folders, either by keyword, or by 
+file content. Organization of files is easy! Besides being able to upload files 
+to different folders, you can also add specific tags/labels to each file.
+
+This repository is a fork of "http://www.hulihanapplications.com/projects/bxr":http://www.hulihanapplications.com/projects/bxr.
+
+h2. Installation
+
+# @cp config/database.yml.sample config/database.yml@
+# edit @config/database.yml@ appropriately
+# rake db:create
+# rake db:migrate
+# @script/server@ or configure "Phusion Passenger":http://www.modrails.com/
+# login with @admin@/@admin@
+# _laissez les bon ton roulette_
+
+Pretty standard stuff.  Check @INSTALL@ if you need a nudge.
+
+h2. History
+
+h4. January 8, 2010
+* manually forked "http://www.hulihanapplications.com/projects/bxr":http://www.hulihanapplications.com/projects/bxr to new GitHub repository

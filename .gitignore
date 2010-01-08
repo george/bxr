@@ -1,0 +1,10 @@
+.DS_Store
+log/*.log
+vendor/plugins/**/**/*.log
+tmp/**/*
+tmp/*
+db/*.sqlite3
+db/*.sqlite3-journal
+coverage.data
+webrat-*.html
+database.yml
