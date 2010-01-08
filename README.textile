@@ -25,7 +25,4 @@ Pretty standard stuff.  Check @INSTALL@ if you need a nudge.
 
 h2. History
 
-h4. January 8, 2010
-* manually forked "http://www.hulihanapplications.com/projects/bxr":http://www.hulihanapplications.com/projects/bxr to new GitHub repository
-* nixed the unused test directory (and its subdirectories) as it contained only boilerplate tests
-* unvendor'd rails (2.2.2); now targeting 2.3.5 (gem version)
+see @CHANGELOG@
