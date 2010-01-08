@@ -23,6 +23,14 @@ h2. Installation
 
 Pretty standard stuff.  Check @INSTALL@ if you need a nudge.
 
+h2. Test/Specs/Features
+
+Forthcoming
+
 h2. History
 
 see @CHANGELOG@
+
+h2. Credits
+
+Original code: http://www.hulihanapplications.com/projects/bxr
