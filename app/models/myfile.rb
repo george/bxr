@@ -65,7 +65,7 @@ class Myfile < ActiveRecord::Base
 
       # If it didn't get caught yet, try the helpers
       if text_in_file.blank?
-        INDEX_HELPERS.each do |index_helper| # defined in environment.rb
+        INDEX_HELPERS.each do |index_helper| # defined in config/initializers/app_config.rb
           if filename =~ index_helper[:ext] # a matching helper!   
 
             if index_helper[:file_output] # a file that writes to an output file
