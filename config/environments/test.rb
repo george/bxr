@@ -27,12 +27,12 @@ config.action_mailer.delivery_method = :test
 # like if you have constraints or database-specific column types
 # config.active_record.schema_format = :sql
 
-config.gem 'rspec-rails', :lib => false, :version => ">= 1.2.9"
-config.gem 'rspec',       :lib => false, :version => ">= 1.2.9"
-config.gem 'cucumber',    :lib => false, :version => ">= 0.4.4"
-config.gem 'webrat',      :lib => false, :version => ">= 0.5.3"
-config.gem "pickle",      :lib => false, :version => ">= 0.1.22"
-config.gem 'thoughtbot-shoulda',       :lib => false
-config.gem "thoughtbot-factory_girl",  :lib => "factory_girl"
-config.gem 'bmabey-email_spec',        :lib => 'email_spec', :version => ">= 0.3.4"
-config.gem 'spork', :version => ">= 0.7.4"
+config.gem 'rspec-rails',    :lib => false, :version => ">= 1.2.9"
+config.gem 'rspec',          :lib => false, :version => ">= 1.2.9"
+config.gem 'cucumber',       :lib => false, :version => ">= 0.6.1"
+config.gem 'cucumber-rails', :lib => false, :version => ">= 0.2.3"
+config.gem 'webrat',         :lib => false, :version => ">= 0.6.0"
+config.gem "pickle",         :lib => false, :version => ">= 0.2.1"
+config.gem "factory_girl",                  :version => ">= 1.2.3"
+config.gem 'email_spec',                    :version => ">= 0.4.0"
+config.gem 'spork',                         :version => ">= 0.7.5"
