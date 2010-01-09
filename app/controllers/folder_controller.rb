@@ -21,6 +21,7 @@ class FolderController < ApplicationController
   # Sessions are not needed for feeds
   session :off, :only => 'feed'
   layout 'folder', :except => 'feed'
+  # layout 'application', :except => 'feed'
 
   # The default action, redirects to list.
   def index
