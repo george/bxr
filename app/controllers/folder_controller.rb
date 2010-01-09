@@ -18,8 +18,6 @@ class FolderController < ApplicationController
   before_filter :authorize_updating, :only => [:rename, :update, :update_rights]
   before_filter :authorize_deleting, :only => :destroy
 
-  # Sessions are not needed for feeds
-  session :off, :only => 'feed'
   layout 'folder', :except => 'feed'
   # layout 'application', :except => 'feed'
 
